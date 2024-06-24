@@ -1,0 +1,70 @@
+@import "./reset";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import "./variables";
+@import "/src/components/FlightList/FlightList";
+@import "/src/components/FilterCheckbox/FilterCheckbox";
+@import "/src/components/Filter/Filter";
+@import "/src/components/Card/Card";
+@import "/src/components/Header/Header";
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #f3f7fa;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  gap: 40px;
+}
+
+.sortButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.sortButtons--margin-bottom {
+  margin-bottom: 18px;
+}
+
+.button {
+  height: 50px;
+  width: 100%;
+  @include font;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  border: 1px solid #dfe5ec;
+  background-color: white;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.button--border-radius-left {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.button--border-radius-right {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.button--active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.button--wide {
+  width: 100%;
+  background-color: #2196f3;
+  color: white;
+  border-radius: $radius;
+}

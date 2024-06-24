@@ -1,0 +1,47 @@
+@import "/src/scss/variables.scss";
+
+.card {
+  max-width: 502px;
+  background-color: white;
+  border-radius: $radius;
+  box-shadow: 0px 2px 8px 0px #0000001a;
+  padding: 20px 25px 10px 20px;
+}
+
+.card--margin-bottom {
+  margin-bottom: 20px;
+}
+
+.card__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include font;
+  font-size: 24px;
+  color: #2196f3;
+  line-height: 24px;
+  margin-bottom: 26px;
+}
+
+.card__information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 20px;
+  margin-bottom: 10px;
+}
+
+.card__info-item--top-item {
+  color: #a0b0b9;
+  @include font;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.card__info-item--bottom-item {
+  color: #4a4a4a;
+  @include font;
+  font-size: 14px;
+  line-height: 21px;
+}
