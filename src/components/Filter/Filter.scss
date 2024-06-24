@@ -15,4 +15,17 @@
     color: #211c1c;
     margin-left: 20px;
   }
+
+  @media (max-width: 800px) {
+    width: 100%;
+    height: auto;
+    padding-bottom: 14px;
+  }
+}
+
+.filter__list {
+  @media (max-width: 800px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

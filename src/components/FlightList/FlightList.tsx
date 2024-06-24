@@ -17,12 +17,12 @@ export const FlightList = () => {
   return (
     <div className='flight-list-container'>
       <SortButtons />
-      {newList.map(({ price, firstDirection, returnDirection }) => (
+      {newList.map(({ price, firstDirection, returnDirection, id }) => (
         <Card
           price={price}
           firstDirection={firstDirection}
           returnDirection={returnDirection}
-          key={price}
+          key={id}
         />
       ))}
       <MoreButton />

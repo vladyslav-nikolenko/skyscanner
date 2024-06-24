@@ -7,6 +7,7 @@ export type FlightInfo = {
 
 export type CardProps = {
   price: number;
+  id?: number;
   firstDirection: FlightInfo;
   returnDirection: FlightInfo;
 };

@@ -17,14 +17,16 @@ export const Filter = () => {
   return (
     <div className='filter'>
       <h3 className='filter__title'>КІЛЬКІСТЬ ПЕРЕСАДОК</h3>
-      {filterList.map(({ label, filerValue }: FilterCheckboxProps) => (
-        <FilterCheckbox
-          label={label}
-          key={label}
-          filerValue={filerValue}
-          setFilters={setFilters}
-        />
-      ))}
+      <div className='filter__list'>
+        {filterList.map(({ label, filerValue }: FilterCheckboxProps) => (
+          <FilterCheckbox
+            label={label}
+            key={label}
+            filerValue={filerValue}
+            setFilters={setFilters}
+          />
+        ))}
+      </div>
     </div>
   );
 };

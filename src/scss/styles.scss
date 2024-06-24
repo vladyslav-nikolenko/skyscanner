@@ -23,6 +23,10 @@ body {
 .main-content {
   display: flex;
   gap: 40px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 }
 
 .sortButtons {

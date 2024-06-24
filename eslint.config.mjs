@@ -15,6 +15,7 @@ export default [
     rules: {
       "no-console": "error",
       "react/react-in-jsx-scope": "off",
+      "@typescript-eslint/no-var-requires": "off",
     },
   },
 ];

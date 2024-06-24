@@ -1,158 +1,146 @@
 [
-    {
-        "price": 30.405,
-        "firstDirection": {
-          "direction": "LHR – DXB",
-          "schedule": "10:45 – 08:00",
-          "tripDuration": "18г 55хв",
-          "connections": []
-        },
-        "returnDirection": {
-          "direction": "DXB – LHR",
-          "schedule": "11:20 – 00:50",
-          "tripDuration": "18г 10хв",
-          "connections": []
-        }
-      },
-      {
-        "price": 30.400,
-        "firstDirection": {
-          "direction": "LHR – DXB",
-          "schedule": "10:45 – 08:00",
-          "tripDuration": "18г 55хв",
-          "connections": ["HKG"]
-        },
-        "returnDirection": {
-          "direction": "DXB – LHR",
-          "schedule": "11:20 – 00:50",
-          "tripDuration": "18г 10хв",
-          "connections": ["HKG"]
-        }
-      },
-    {
-      "price": 13.300,
-      "firstDirection": {
-        "direction": "LHR – DXB",
-        "schedule": "10:45 – 08:00",
-        "tripDuration": "34г 15хв",
-        "connections": [
-          "HKG"
-        ]
-      },
-      "returnDirection": {
-        "direction": "DXB – LHR",
-        "schedule": "11:20 – 00:50",
-        "tripDuration": "16г 30хв",
-        "connections": [
-          "HKG"
-        ]
-      }
+  {
+    "id": 1,
+    "price": 30.405,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "18г 55хв",
+      "connections": []
     },
-    {
-      "price": 15.100,
-      "firstDirection": {
-        "direction": "LHR – DXB",
-        "schedule": "10:45 – 08:00",
-        "tripDuration": "17г 15хв",
-        "connections": [
-          "HKG",
-          "JNB"
-        ]
-      },
-      "returnDirection": {
-        "direction": "DXB – LHR",
-        "schedule": "11:20 – 00:50",
-        "tripDuration": "40г 30хв",
-        "connections": [
-          "HKG",
-          "JNB"
-        ]
-      }
-    },
-    {
-      "price": 15.400,
-      "firstDirection": {
-        "direction": "LHR – DXB",
-        "schedule": "10:45 – 08:00",
-        "tripDuration": "20г 15хв",
-        "connections": [
-          "HKG"
-        ]
-      },
-      "returnDirection": {
-        "direction": "DXB – LHR",
-        "schedule": "11:20 – 00:50",
-        "tripDuration": "13г 30хв",
-        "connections": [
-          "HKG"
-        ]
-      }
-    },
-    {
-      "price": 21.400,
-      "firstDirection": {
-        "direction": "LHR – DXB",
-        "schedule": "10:45 – 08:00",
-        "tripDuration": "21г 15хв",
-        "connections": [
-          "HKG",
-          "JNB",
-          "JNB"
-        ]
-      },
-      "returnDirection": {
-        "direction": "DXB – LHR",
-        "schedule": "11:20 – 00:50",
-        "tripDuration": "12г 30хв",
-        "connections": [
-          "HKG",
-          "JNB",
-          "JNB"
-        ]
-      }
-    },
-    {
-      "price": 10.200,
-      "firstDirection": {
-        "direction": "LHR – DXB",
-        "schedule": "10:45 – 08:00",
-        "tripDuration": "25г 05хв",
-        "connections": [
-          "HKG",
-          "JNB",
-          "JNB"
-        ]
-      },
-      "returnDirection": {
-        "direction": "DXB – LHR",
-        "schedule": "11:20 – 00:50",
-        "tripDuration": "18г 10хв",
-        "connections": [
-          "HKG",
-          "JNB",
-          "JNB"
-        ]
-      }
-    },
-    {
-      "price": 16.835,
-      "firstDirection": {
-        "direction": "LHR – DXB",
-        "schedule": "10:45 – 08:00",
-        "tripDuration": "28г 55хв",
-        "connections": [
-          "JNB",
-          "JNB"
-        ]
-      },
-      "returnDirection": {
-        "direction": "DXB – LHR",
-        "schedule": "11:20 – 00:50",
-        "tripDuration": "28г 10хв",
-        "connections": [
-          "HKG",
-          "JNB"
-        ]
-      }
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "18г 10хв",
+      "connections": []
     }
-  ]
+  },
+  {
+    "id": 2,
+    "price": 30.4,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "18г 55хв",
+      "connections": ["HKG"]
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "18г 10хв",
+      "connections": ["HKG"]
+    }
+  },
+  {
+    "id": 3,
+    "price": 13.3,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "34г 15хв",
+      "connections": ["HKG"]
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "16г 30хв",
+      "connections": ["HKG"]
+    }
+  },
+  {
+    "id": 4,
+    "price": 15.1,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "17г 15хв",
+      "connections": ["HKG", "JNB"]
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "40г 30хв",
+      "connections": ["HKG", "JNB"]
+    }
+  },
+  {
+    "id": 5,
+    "price": 15.4,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "20г 15хв",
+      "connections": ["HKG"]
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "13г 30хв",
+      "connections": ["HKG"]
+    }
+  },
+  {
+    "id": 6,
+    "price": 15.4,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "20г 15хв",
+      "connections": []
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "13г 30хв",
+      "connections": []
+    }
+  },
+  {
+    "id": 7,
+    "price": 21.4,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "21г 15хв",
+      "connections": ["HKG", "JNB", "JNB"]
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "12г 30хв",
+      "connections": ["HKG", "JNB", "JNB"]
+    }
+  },
+  {
+    "id": 8,
+    "price": 10.2,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "25г 05хв",
+      "connections": ["HKG", "JNB", "JNB"]
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "18г 10хв",
+      "connections": ["HKG", "JNB", "JNB"]
+    }
+  },
+  {
+    "id": 9,
+    "price": 16.835,
+    "firstDirection": {
+      "direction": "LHR – DXB",
+      "schedule": "10:45 – 08:00",
+      "tripDuration": "28г 55хв",
+      "connections": ["JNB", "JNB"]
+    },
+    "returnDirection": {
+      "direction": "DXB – LHR",
+      "schedule": "11:20 – 00:50",
+      "tripDuration": "28г 10хв",
+      "connections": ["HKG", "JNB"]
+    }
+  }
+]
