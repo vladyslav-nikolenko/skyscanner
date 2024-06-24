@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { onCheckboxClick, resetNumberOfFlights } from "./utils";
-import { FilterCheckboxProps } from "../Filter/types";
+import { FilterCheckboxProps } from "../Filter";
 
 export const FilterCheckbox = ({
   label,

@@ -1,5 +1,5 @@
-import { Filter } from "../Filter/Filter";
-import { FlightList } from "../FlightList/FlightList";
+import { Filter } from "../Filter";
+import { FlightList } from "../FlightList";
 
 export const PageContent = () => {
   return (

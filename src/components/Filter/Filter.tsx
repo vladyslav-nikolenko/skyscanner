@@ -1,4 +1,4 @@
-import { FilterCheckbox } from "../FilterCheckbox/FilterCheckbox";
+import { FilterCheckbox } from "../FilterCheckbox";
 import { filter } from "../../reducers/flightListReducer";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";

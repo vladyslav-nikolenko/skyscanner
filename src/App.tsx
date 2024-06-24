@@ -1,10 +1,10 @@
 import "./scss/styles.scss";
-import { Header } from "./components/Header/Header";
-import { PageContent } from "./components/PageContent/PageContent";
+import { Header } from "./components/Header";
+import { PageContent } from "./components/PageContent";
 
 export const App = () => {
   return (
-    <div>
+    <div className='page'>
       <Header />
       <PageContent />
     </div>

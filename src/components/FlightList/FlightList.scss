@@ -1,3 +1,7 @@
 .flight-list-container {
   width: 502px;
+  @media (max-width: 800px) {
+    max-width: 502px;
+    width: unset;
+  }
 }

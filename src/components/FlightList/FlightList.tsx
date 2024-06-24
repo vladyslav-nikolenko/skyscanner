@@ -1,6 +1,6 @@
-import { Card } from "../Card/Card";
-import { SortButtons } from "../SortButtons/SortButtons";
-import { MoreButton } from "../MoreButton/MoreButton";
+import { Card } from "../Card";
+import { SortButtons } from "../SortButtons";
+import { MoreButton } from "../MoreButton";
 import { useSelector } from "react-redux";
 import { RootState } from "../../reducers/store";
 

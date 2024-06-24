@@ -6,8 +6,8 @@ import {
   getTotalTripDuration,
   optimalCompareTickets,
 } from "./utils";
-import { SortVariants } from "../components/SortButtons/types";
-import { CardProps } from "../components/Card/types";
+import { SortVariants } from "../components/SortButtons";
+import { CardProps } from "../components/Card";
 
 export const initialState: InitialState = {
   flightList: initialFlightList,

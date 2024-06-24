@@ -2,7 +2,7 @@ import { FilterValue } from "../../types/types";
 import { ManageFilterProps } from "./types";
 import { reset } from "../../reducers/flightNubmerReducer";
 import { Dispatch, UnknownAction } from "@reduxjs/toolkit";
-import { FilterCheckboxProps } from "../Filter/types";
+import { FilterCheckboxProps } from "../Filter";
 
 const setNewFilter = ({ setFilters, filerValue }: ManageFilterProps) => {
   setFilters((prevState: FilterValue[]) => {

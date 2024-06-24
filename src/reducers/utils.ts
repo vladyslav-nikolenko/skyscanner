@@ -1,4 +1,4 @@
-import { CardProps } from "../components/Card/types";
+import { CardProps } from "../components/Card";
 import { FilterValue } from "../types/types";
 import { initialState } from "./flightListReducer";
 import { FilterListProps } from "./types";
